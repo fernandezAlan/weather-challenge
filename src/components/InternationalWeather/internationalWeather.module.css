@@ -1,0 +1,47 @@
+.container{
+  display:flex
+}
+.container_info{
+  display:flex;
+  flex-direction:column;
+  width:440px
+}
+.container_countries{
+    width: 30vw;
+    display:flex;
+    flex-direction:column;
+    height:80vh;
+    margin-right:60px;
+    overflow:auto
+}
+.container_countries::-webkit-scrollbar {
+    width: 5px;              
+  }
+.container_countries::-webkit-scrollbar-track {
+    background: transparent;       
+  }
+.container_countries::-webkit-scrollbar-thumb {
+    background-color: #673ab7c7;   
+    border-radius: 20px;       
+    
+  }
+  @media (max-width: 600px) {
+    .container{
+      display:flex;
+      flex-direction:column;
+      width:100vw
+    }
+    .container_info{
+      display:flex;
+      flex-direction:column;
+      width:100vw
+    }
+    .container_countries{
+      width:100%;
+      display:flex;
+      flex-direction:column;
+      height:auto;
+      margin-right:60px;
+      overflow:hidden
+  }
+  }
