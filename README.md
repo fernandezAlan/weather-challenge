@@ -1,6 +1,23 @@
+# Weather App-challenge frontend developer
+
+- Aplicación web que muestra el clima local actual y de los próximos 5 días .
+- Cuenta con un input para buscar información del clima del cualquier ciudad o país.
+- construida sobre React.js.
+- La aplicación es responsive.
+- la API a la cual se consulta es [Visual crossing](https://www.visualcrossing.com/)
+
+### programador: Alan Fernández
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
